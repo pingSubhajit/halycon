@@ -1,4 +1,4 @@
-import bg from '@halycon/ui/media/bg.png'
+import bg from '@halycron/ui/media/bg.png'
 import Image from 'next/image'
 import {GetStartedButton} from '@/app/(site)/get-started-button'
 import {Metadata} from 'next'

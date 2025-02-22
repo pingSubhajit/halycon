@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-	transpilePackages: ['@halycon/ui'],
+	transpilePackages: ['@halycron/ui'],
 	images: {
 		remotePatterns: [
 			{
@@ -15,7 +15,7 @@ const nextConfig = {
 			},
 			{
 				protocol: 'https',
-				hostname: 'halycon-photos.s3.ap-south-1.amazonaws.com',
+				hostname: 'halycron-photos.s3.ap-south-1.amazonaws.com',
 				pathname: '/**'
 			}
 		]

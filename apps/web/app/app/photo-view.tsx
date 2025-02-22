@@ -1,7 +1,7 @@
 'use client'
 
 import {useState} from 'react'
-import {Lightbox} from '@halycon/ui/components/lightbox'
+import {Lightbox} from '@halycron/ui/components/lightbox'
 import {toast} from 'sonner'
 import {Photo} from '@/app/api/photos/types'
 import {useAllPhotos} from '@/app/api/photos/query'

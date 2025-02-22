@@ -1,10 +1,10 @@
 import {useCallback, useState} from 'react'
 import {Upload} from 'lucide-react'
 import {useDropzone} from 'react-dropzone'
-import {cn} from '@halycon/ui/lib/utils'
+import {cn} from '@halycron/ui/lib/utils'
 import {UploadState} from '@/app/api/photos/types'
 import {useUploadPhoto} from '@/app/api/photos/mutation'
-import {TextShimmer} from '@halycon/ui/components/text-shimmer'
+import {TextShimmer} from '@halycron/ui/components/text-shimmer'
 
 export const PhotoUpload = () => {
 	const [uploadStates, setUploadStates] = useState<Record<string, UploadState>>({})

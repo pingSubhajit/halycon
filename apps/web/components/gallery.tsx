@@ -2,7 +2,7 @@ import Image from 'next/image'
 import {Photo} from '@/app/api/photos/types'
 import {Masonry} from 'masonic'
 import {HTMLProps} from 'react'
-import {cn} from '@halycon/ui/lib/utils'
+import {cn} from '@halycron/ui/lib/utils'
 import useResponsive, {breakpoints} from '@/hooks/use-responsive'
 
 type Props = {
